@@ -104,7 +104,7 @@ def mailtest_registration(to_email):
 
 #for donor
 def mailtest_donor(to_email):
-    sg = sendgrid.SendGridAPIClient(api_key= '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' )
+    sg = sendgrid.SendGridAPIClient(api_key="")
     from_email = Email("rakeshprasanna72@gmail.com")
     subject = "Thankyou for Registering as Donor!"
     content = Content("text/plain", "Every donor is an asset to the nation who saves people's lives, and you're one of them.We appreciate your efforts. Thank you!!")
@@ -117,7 +117,7 @@ def mailtest_donor(to_email):
 #for request
 
 def mailtest_request(to_email):
-    sg = sendgrid.SendGridAPIClient(api_key= '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' )
+    sg = sendgrid.SendGridAPIClient(api_key="")
     from_email = Email("rakeshprasanna72@gmail.com")
     subject = "Request Submitted!"
     content = Content("text/plain", "Your request has been successfully submitted. Please be patient, your requested donor will get back to you soon.")
@@ -130,7 +130,7 @@ def mailtest_request(to_email):
 #for request sending to donor
 
 def mailtest_requesttodonor(to_email):
-    sg = sendgrid.SendGridAPIClient(api_key= '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' )
+    sg = sendgrid.SendGridAPIClient(api_key="")
     from_email = Email("rakeshprasanna72@gmail.com")
     subject = "Requesting Plasma"
     content = Content("text/plain", "Your registration has been requested by a recipient, we will share futher details in future. Stay connected!!")
