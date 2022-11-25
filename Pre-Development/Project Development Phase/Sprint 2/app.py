@@ -130,7 +130,7 @@ def mailtest_request(to_email):
 #for request sending to donor
 
 def mailtest_requesttodonor(to_email):
-    sg = sendgrid.SendGridAPIClient(api_key= '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' )
+    sg = sendgrid.SendGridAPIClient(api_key= "" )
     from_email = Email("rakeshprasanna72@gmail.com")
     subject = "Requesting Plasma"
     content = Content("text/plain", "Your registration has been requested by a recipient, we will share futher details in future. Stay connected!!")
